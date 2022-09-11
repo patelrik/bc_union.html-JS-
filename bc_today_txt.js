@@ -14,7 +14,7 @@
 
 */
 /* variables */
-var thisDate = new Date("October 12, 2018"); 
+var thisDate = new Date(); 
 var dateStr = thisDate.toLocaleDateString(); 
 var dateHTML = "<h2>" +dateStr +"</h2>"; 
 var thisDay = thisDate.getDay();  
